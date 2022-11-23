@@ -1,0 +1,77 @@
+.botonarriba{
+    position:absolute;
+    border-radius: 55px;
+    height:300px;
+    width:300px;
+    top: 15%;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+
+    left : 45%;
+    z-index: 2;
+    
+}
+.botonarriba:hover{
+    filter: contrast(1.8) brightness(1.5) ;
+}
+
+.botonizquierda{
+    position:absolute;
+    border-radius: 55px;
+    height:250px;
+    width:250px;
+    top: 50%;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+
+    left : 5%;
+    z-index: 2;
+    }
+
+.botonizquierda:hover{
+
+    filter: contrast(1.8) brightness(1.5) ;
+
+
+}
+
+
+.botonderecha{
+    position:absolute;
+    border-radius: 55px;
+    height:50%;
+    width:50%;
+    top: 50%;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+
+    right: 5%;
+    z-index: 2;
+}
+.botonderecha:hover{
+
+    filter: contrast(1.8) brightness(1.5) ;
+
+}
+
+
+.botonabajo{
+    position:absolute;
+    left: 45%;
+    border-radius: 55px;
+    height:50%;
+    width:50%;
+    bottom: 5%;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+
+    z-index: 2;
+}
+
+.botonabajo:hover{
+    filter: contrast(1.8) brightness(1.5) ;
+
+}
+
+.fondo{
+    position: absolute;
+    
+
+    z-index: 1 ;
+}
